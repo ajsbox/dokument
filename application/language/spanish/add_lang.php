@@ -1,0 +1,176 @@
+<?php
+
+$lang['Documents']="Documentos";
+$lang['ad']="Crear Documento";
+$lang['dn']="Nombre del Documento:";
+$lang['ti']="Este será el nombre del grupo.";
+$lang['Groups']="Grupos";
+$lang['Status']="Estatus";
+$lang['Active']="Activo";
+$lang['Inactive']="Inactivo";
+
+$lang['statistics_by_document_type']="Estadísticas por tipo de documento";
+$lang['statistics_type']="Tipo";
+$lang['statistics_number']="Número";
+$lang['statistics_no_data']="No hay registros disponibles";
+$lang['statistics_from']="Desde";
+$lang['statistics_to']="Hasta";
+$lang['statistics_by_user']="Estadísticas por usuario";
+$lang['statistics_user']="Usuario";
+$lang['statistics_by_user']="Estadísticas por usuario";
+$lang['statistics_by_user_title']="Usuario";
+$lang['statistics_by_group']="Estadísticas por grupo";
+$lang['statistics_group']="Grupo";
+$lang['statistics_submit']="Enviar";
+$lang['log_action_log']="Historial de Acciones";
+$lang['log_document_log']="Historial del Documento";
+$lang['menu_statistics']="Estadísticas";
+$lang['menu_graph']="Gráfico";
+$lang['menu_log']="Historial";
+$lang['action_load']="Cargar";
+$lang['action_modify']="Modificar";
+$lang['action_delete']="Borrar";
+
+$lang['login_user_name']="Usuario";
+$lang['initial_title']="Inicio de Sesión";
+$lang['access_denied']="Su cuenta está bloqueada por el administrador de esperar algún tiempo para continuar. Gracias por la visita.";
+$lang['access_thanks']="Ir al inicio de sesión";
+$lang['access_not_allow']="Acceso Denegado";
+
+$lang['header_title']="Dokument – Sistema de Gestion de Documentos";
+$lang['datatable_search']="Buscar";
+$lang['datatable_no_record']="No hay registros disponibles";
+$lang['datatable_showing']="Mostrando";
+$lang['datatable_show']="Mostrar";
+$lang['datatable_entry']="Entradas";
+$lang['datatable_first']="Primero";
+$lang['datatable_last']="Último";
+$lang['datatable_next']="Siguiente";
+$lang['datatable_previous']="Anterior";
+$lang['datatable_filter']="filtrado";
+$lang['datatable_record']="registros";
+$lang['datatable_of']="de";
+
+$lang['user_loading_save']="Al cargar guardar en";
+
+$lang['create_document_text']="Texto Simple";
+$lang['create_document_paragraph']="Parrafo";
+$lang['user_loading_list']="Lista";
+$lang['user_loading_file']="Carga de Archivo";
+
+$lang['install_hour']="Hora";
+$lang['install_minute']="Minutos";
+$lang['install_second']="Segundos";
+
+$lang['menu_setting']="Ajustes";
+$lang['password_length']="Activar longitud mínima de contraseña";
+$lang['setting_success']="Los ajustes han sido actualizados!";
+$lang['parent_group']="Seleccionar grupo de padres";
+$lang['no_groups']="No Padre";
+
+$lang['search_by_word']="Esta palabra o frase exacta";
+$lang['search_by_any_word']="Cualquiera de estas palabras";
+$lang['search_by_not_of_word']="Ninguna de estas palabras";
+$lang['advance_search_label']="Búsqueda Avanzada";
+$lang['no_documents']="No hay documentos";
+$lang['new_advance_search_label']="Nueva Búsqueda";
+$lang['install_btn']="Instalar";
+$lang['user_type']="Tipo";
+$lang['add_ldap_users']="Añadir de LDAP";
+$lang['user_inserted_with_ldap']="Usuarios copiados de LDAP";
+$lang['action_create_doc']="Cargar documento";
+$lang['action_upload_file']="Reemplazar archivo de documento";
+$lang['action_update_file']="Editar documento";
+$lang['action_send_doc']="Enviar documento";
+$lang['action_delete_doc']="Eliminar documento";
+$lang['action_delete_doc_file']="Eliminar archivo de documento";
+$lang['action_upload_new_file']="Sube nuevo archivo de documento";
+$lang['action_update_profile']="Actualizar el perfil";
+$lang['action_update_password']="Actualizar contraseña";
+$lang['action_ip_address']="Dirección IP";
+$lang['action_mac_address']="Dirección MAC";
+$lang['admin_setting_button']="Guardar";
+$lang['admin_menu_ldap_auth']="Autenticación LDAP";
+$lang['admin_ldap_config']="Configuración de LDAP";
+$lang['admin_ldap_success']="Detalles LDAP guardado correctamente";
+$lang['admin_ldap_host']="Nombre de host";
+$lang['admin_ldap_port']="Puerto";
+$lang['admin_ldap_password']="Contraseña";
+$lang['admin_ldap_structure']="Estructura de datos";
+$lang['admin_ldap_username']="LDAP Nombre de usuario";
+$lang['ldap_bind_error']="Autenticación LDAP incorrecta, por favor verifique la configuración LDAP";
+$lang['ldap_config_not_save']="Por favor, añada la autenticación LDAP para conectar";
+$lang['admin_network_parameter']="Parámetros de red";
+$lang['admin_btn_network']="Probar parámetros de red";
+$lang['admin_search_parameter']="Parámetros usuarios LDAP";
+$lang['admin_base_dn']="DN Base";
+$lang['admin_group_base_dn']="DN base para el Grupo";
+$lang['admin_filter']="Filtro";
+$lang['admin_attributs']="Atributos";
+$lang['check_authentication']="Probar Autenticación";
+$lang['ldap_user_not_exists']="Este usuario LDAP no se actualiza en este servidor";
+$lang['connected_to_ldap']="Conectado con el servidor LDAP";
+$lang['can_not_connect_to_ldap']="No se pudo establecer una conexión con el servidor LDAP";
+$lang['bind_with_ldap']="Enlazar con servidor LDAP";
+$lang['can_not_bind_ldap']="No hay comunicación con el servidor LDAP, revise la configuración";
+$lang['error_ldap_host']="Por favor, introduzca el nombre de host";
+$lang['error_port_number']="Por favor, introduzca el número de puerto";
+$lang['error_base_dn']="Por favor ingrese DN base";
+$lang['error_ldap_filter']="Por favor ingrese condición de filtro";
+$lang['error_ldap_attributes']="Por favor ingrese atributos";
+$lang['error_ldap_parameters']="Parámetros del método";
+$lang['error_ldap_bind_dn']="DN de enlace o Usuario";
+$lang['error_ldap_bind_user']="Por favor ingrese Bind DN o Usuario";
+$lang['label_bind_password']="Contraseña de enlace";
+$lang['error_bind_password']="Por favor, ingrese la contraseña";
+$lang['ldap_authentication']="Autenticación";
+$lang['history_doc_create']="Crear tipo de documento";
+$lang['history_doc_update']="Actualizar tipo de documento";
+$lang['history_doc_publish']="Publicar tipo de documento";
+$lang['history_doc_delete']="Eliminar documento";
+$lang['install_dms_userlogin']="Este inicio de sesión del usuario se utilizará";
+$lang['install_dms_banned_time']="Tiempo de bloqueo de la cuenta";
+$lang['admin_group_attributs']="Atributos para Grupo";
+$lang['error_group_base_dn']="Por favor ingrese base de grupo DN";
+$lang['error_ldap_group_attributes']="Por favor ingrese los atributos de grupo";
+$lang['admin_group_filter']="Group Filter";
+$lang['admin_group_search_parameter']="Parámetros de grupos LDAP";
+$lang['add_group_from_ldap']="Agregar grupos LDAP";
+$lang['ldap_attributes_notes']="Debe seguir el orden de los atributos(nombre de usuario, givenName, correo electrónico, teléfono, etc)";
+$lang['ldap_group_attributes_notes']="Debe seguir prioridad atributos <br>(nombre de grupo, etc.)";
+$lang['select_doc_group']="Seleccione";
+$lang['user_doc_group_req']="Por favor, seleccione el grupo de documentos!";
+$lang['history_user_create']="Agregar usuario";
+$lang['history_user_update']="Actualizar usuario";
+$lang['history_ldap_user_add_first']=" Se agregaron";
+$lang['history_ldap_user_add_last']=" usuarios de LDAP";
+$lang['history_user_deleted']="Eliminado usuario";
+$lang['history_group_update']=" Actualizar grupo";
+$lang['history_group_added']=" Agregar grupo";
+$lang['history_ldap_group_add']=" grupos añaden desde LDAP";
+$lang['history_group_deleted']="Elimina Grupo";
+$lang['delete_user_confirmation']="¿Seguro que quieres eliminar";
+$lang['delete_group_confirmation']="¿Seguro que quieres eliminar este grupo";
+
+$lang['external_user']="Usuarios Externos";
+$lang['ex_ad_user']="Agregar usuarios";
+$lang['manage_ex_user']="Administrar usuarios externos";
+$lang['modify_date']="modificar Fecha";
+$lang['Description']="descripción";
+$lang['Name']="Usuarios Externos";
+$lang['external_user']="Usuarios Externos";
+$lang['e_mail']="Correo electrónico";
+$lang['delete_exuser_confirmation']="¿Seguro que quieres eliminar este usuario ";
+$lang['external_document_send']="Enviar por Correo";
+$lang['send_docs_to_users']="Documentos seleccionados enviados a los usuarios";
+$lang['select_users_to_send']="Por favor, seleccione los usuarios externos!";
+$lang['select_file_to_send']="Por favor, selecione al menos un archivo!";
+
+$lang['delete_document_lang']="¿Seguro que quieres eliminar este documento?";
+$lang['cant_del_document_lang']="Este tipo de documento no puede borrarlo contiene algún documento!";
+$lang['published_document_lang']="Documento ya fue publicado!";
+$lang['created_document_lang']="Ya se creo el formulario!";
+
+
+/* End of file unit_test_lang.php */
+/* Location: ./system/language/english/unit_test_lang.php */

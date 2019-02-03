@@ -1,0 +1,50 @@
+.latestProductsNav div.page_class{
+	float:right;
+	margin-top:8px;
+}
+.latestProductsNav div.page_class span{
+	float:left;
+	margin-right:1px;
+}
+.latestProductsNav div.page_class span a{
+	font-family:Arial;
+	font-size:11px;
+	color:#000;
+	width:18px;
+	text-align:center;
+	display:block;
+	line-height:18px;
+}
+.latestProductsNav div.page_class span.activeLPNN{
+	background:#333;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#fff !important;
+	text-decoration:none;
+	padding:3px;
+	text-align:center;
+}
+ .latestProductsNav div.page_class span a.activeLPNN{
+	background:#333;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#fff !important;
+	text-decoration:none;
+}
+.latestProductsNav div.page_class span a:hover{
+	color:#c0c0c0;
+	text-decoration:none;
+}
+.latestProductsNav div.page_class .next a,
+.latestProductsNav div.page_class .prev a:hover,
+.latestProductsNav div.page_class .prev a{
+	/* text-indent:-9999px; */
+	overflow:hidden;
+	background:url(../images/btn-prev.png) no-repeat 50% 50%;
+	height:18px;
+}
+.latestProductsNav .page_class .next a:hover,.latestProductsNav div.page_class span.next a{
+	background:url(../images/btn-next.png) no-repeat 50% 50%;
+}

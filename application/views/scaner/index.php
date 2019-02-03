@@ -1,0 +1,2 @@
+<?php //$table = base64_encode($table_name);?>
+<iframe src="<?=$url?>assets/app/file_upload/uploads/scaner/online_demo_scan.php?doc_id=<?=$docId?>&table=<?=$table_name?>&url=<?=$url?>" height="98%;" width="100%"></iframe>

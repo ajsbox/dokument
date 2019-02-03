@@ -1,0 +1,647 @@
+﻿body
+{
+    padding: 0px; margin: 0px; background-color:#3a3a3a; font-family: "verdana", "sans-serif"; font-size: 11px;
+}
+
+.scan_contaner a img
+{
+    border:none;
+}
+
+.scan_contaner a img:hover
+{
+    border:none;
+}
+
+.scan_contaner  li.fontstyle
+{
+    font-size: 10px; color: #222222; line-height: 15px;
+}
+
+.scan_contaner li#tallerli
+{
+    line-height:47px;
+}
+
+.scan_contaner input.bigbutton 
+{
+    width:120px !important;height:37px !important; font-family:"Arial Black" !important; color:#FE8E14 !important; font-size:14pt !important; font-style:italic !important; 
+}
+
+.scan_contaner ul 
+{
+    list-style:none !important; padding-left:0px !important; margin:0px !important; 
+}
+
+.scan_contaner ul li
+{
+    margin-bottom:6px !important;
+}
+
+.scan_contaner #browsersupport ul li
+{
+    float:left !important;
+    padding: 0 10px !important;
+}
+
+.scan_contaner #browsersupport img
+{
+    vertical-align:middle !important;
+}
+
+.scan_contaner #browsersupport
+{
+    margin:0;
+    padding:0;
+    padding-left:6px;
+    height:55px;
+    width:260px;
+    z-index:1;
+    position:absolute;
+    top:-80px;
+}
+
+.scan_contaner div.divinput 
+{
+    font-size: 11px; color: #222222; padding:10px; line-height: 14px; font-family: "verdana" , "sans-serif"; 
+    margin:5px; margin-bottom:10px; background-color:#f0f0f0; text-align:left; 
+}
+
+.scan_contaner div.menudiv
+{
+    float:left; 
+    height:25px;
+    padding-top:10px;
+}
+
+.scan_contaner div#DWTcontainer
+{
+    margin: 0 auto;
+}
+.scan_contaner .divcontrol
+{
+    width:580px; height:600px;
+}
+
+.scan_contaner .divcontrolthumbnail
+{
+    width:90px; height:560px;
+}
+.scan_contaner div#dwtcontrolContainer  
+{
+    margin:0px; margin-left:22px; float:left; padding:0px; padding-top:10px; width:600px; height:600px;
+}
+
+.scan_contaner div.dwtcontrolThumbnail
+{
+    padding:5px; padding-top:10px; text-align:center; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 580px; 
+	z-index: 1; background-color: #f0f0f0; width:100px;
+}
+
+.scan_contaner div#ScanWrapper 
+{
+    margin:0px; float:right; padding-right:18px; width:320px; height:800px;margin-top:-750px;*margin-top:-770px;*margin-top:-770\9px;
+}
+
+.scan_contaner div#Crop {
+	padding:5px; padding-top:10px; text-align:center; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 80px; 
+	z-index: 1; background-color: #f0f0f0; width:250px
+}
+.scan_contaner div#ImgSizeEditor 
+{
+    padding:5px; padding-top:10px; text-align:center; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 110px; 
+	z-index: 1; background-color: #f0f0f0; width:300px
+}
+
+.scan_contaner div#MoreEditMethods
+{
+    padding:5px; padding-top:10px; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: auto;
+	z-index: 1; background-color: #f0f0f0; width:250px;  text-align:left;
+}
+
+.scan_contaner div#divCapabilityNegotiation
+{
+    padding:5px; padding-top:10px; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: auto; 
+	z-index: 2; background-color: #f0f0f0; width:auto;
+}
+
+.scan_contaner div#divRotateConfig
+{
+    padding:5px; padding-top:10px; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 100px; 
+	z-index: 2; background-color: #f0f0f0; width:200px;
+}
+
+.scan_contaner div#divSetImageLayout
+{
+    padding:5px; padding-top:10px; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 75px; 
+	z-index: 2; background-color: #f0f0f0; width:350px;
+}
+
+.scan_contaner div#divHighlight
+{
+    padding:5px; padding-top:10px; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 110px; 
+	z-index: 2; background-color: #f0f0f0; width:280px;
+}
+
+.scan_contaner div#tblLoadImage
+{
+    padding:5px; padding-top:10px; text-align:left; border-collapse:collapse; border:3px solid #cE5E04; position: absolute; height: 170px; 
+	z-index: 1; background-color: #fefefe; width:280px
+}
+.scan_contaner div#AddTextDiv 
+{
+    padding:5px; padding-top:10px; text-align:center; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 170px; 
+	z-index: 1; background-color: #f0f0f0; width:300px
+}
+.scan_contaner div#SetTextFontDiv 
+{
+    padding:5px; padding-top:10px; text-align:center; border-collapse:collapse;border:3px solid #cE5E04; position: absolute; height: 250px; 
+	z-index: 1; background-color: #f0f0f0; width:300px
+}
+.scan_contaner a:link {
+	color: #222222; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a:visited {
+	color: #222222; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a:active {
+	color: #666666; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a:hover {
+	color: #ff3300; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.menu:link {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.menu:visited {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.menu:active {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.menu:hover {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.white:link {
+	color: #d9d9d9; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.white:visited {
+	color: #d9d9d9; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.white:active {
+	color: #d9d9d9; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.white:hover {
+	color: #d9d9d9; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.gray:link {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.gray:visited {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.gray:active {
+	color: #222222; line-height: 18px; text-decoration: none
+}
+.scan_contaner a.gray:hover {
+	color: #222222; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.grayunder:link {
+	color: #454545; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.grayunder:visited {
+	color: #454545; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.grayunder:active {
+	color: #454545; line-height: 18px; text-decoration: underline
+}
+.scan_contaner a.grayunder:hover {
+	color: #454545; line-height: 18px; text-decoration: none
+}
+.scan_contaner .tableborder {
+	border-right: #cdcdcd 1px solid; border-top: #cdcdcd 1px solid; border-left: #cdcdcd 1px solid; border-bottom: #cdcdcd 1px solid
+}
+.scan_contaner .tableborderbottom {
+	border-bottom: #cdcdcd 1px solid
+}
+.scan_contaner .fontgray12B {
+	font-weight: bold; color: #555555
+}
+.scan_contaner .fontyellow12B {
+	font-weight: bold; color: #3a3a3a
+}
+.scan_contaner .titlepagetd {
+	vertical-align: middle; height: 30px
+}
+.scan_contaner .subtitletd {
+	vertical-align: bottom; height: 30px
+}
+.scan_contaner .titlepage {
+	font-weight: bold; font-size: 14px; color: #fe8e14
+}
+.scan_contaner .subtitle {
+	font-weight: 600; font-size: 11px; vertical-align: bottom; color: #fe8e14; FONT-FAMILY: Verdana; height: 20px; TEXT-ALIGN: left
+}
+.scan_contaner .menuout {
+	padding-bottom: 5px; color: #ffffff; background-color: #fe8e14
+}
+.scan_contaner .menuover {
+	color: #ffffff; background-color: #5f6062
+}
+.scan_contaner .menu_top_over {
+	padding-left: 30px; font-size: 11px; background: url(../images/menutop1.jpg) no-repeat 50% bottom; width: 151px; color: #353535; padding-top: 9px; FONT-FAMILY: "verdana"; height: 48px
+}
+.scan_contaner .menu_top_out {
+	padding-left: 30px; font-size: 11px; background: url(../images/menutop.jpg) no-repeat 50% bottom; width: 151px; color: #353535; padding-top: 9px; FONT-FAMILY: "verdana"; height: 48px
+}
+.scan_contaner .menu_over {
+	padding-left: 30px; font-size: 11px; background: url(../images/menuover.jpg) no-repeat 50% bottom; width: 151px; color: #353535; FONT-FAMILY: "verdana"; height: 33px
+}
+.scan_contaner .menu_out {
+	padding-left: 30px; font-size: 11px; background: url(../images/menuout.jpg) no-repeat 50% bottom; width: 151px; color: #353535; FONT-FAMILY: "verdana"; height: 33px
+}
+.scan_contaner .menu_blank {
+	background: url(../images/menublank.jpg) no-repeat 50% bottom; width: 151px; color: #353535; height: 33px
+}
+.scan_contaner .body_Narrow_width {
+	width: 964px;
+}
+.scan_contaner .body_Broad_width {
+	width: 984px;
+}
+.scan_contaner input{
+    font:normal 11px verdana !important;
+}
+
+.scan_contaner input.invalid {
+	background-color: #FF9 !important;
+	border: 2px red inset !important;
+}
+
+.scan_contaner a.menucolor:link
+{
+    font-weight: bold; font-family: Arial; font-size: 12px; margin-right: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.scan_contaner a.menucolor:visited
+{
+    font-weight: bold; font-family: Arial; font-size: 12px; margin-right: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.scan_contaner a.menucolor:hover
+{
+    font-weight: bold; font-family: Arial; font-size: 12px; margin-right: 5px;
+    color: #FE8E14;
+    text-decoration: none;
+}
+.scan_contaner a.menucolor:active
+{
+    font-weight: bold; font-family: Arial; font-size: 12px; margin-right: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.scan_contaner a.fontcolor:link
+{
+    color: #000000;
+    text-decoration: none;
+    line-height:14px;
+}
+.scan_contaner a.fontcolor:visited
+{
+    color: #000000;
+    text-decoration: none;
+    line-height:14px;
+}
+.scan_contaner a.fontcolor:hover
+{
+    color: #000000;
+    text-decoration: none;
+    line-height:14px;
+}
+.scan_contaner a.fontcolor:active
+{
+    color: #000000;
+    text-decoration: none;
+    line-height:14px;
+}
+
+.scan_contaner div#tblLoadImage2
+{
+    padding:5px; padding-top:10px; text-align:left; border-collapse:collapse; border:3px solid #cE5E04; position: absolute; height: 330px; 
+	z-index: 1; background-color: #fefefe; width:300px
+}
+
+.scan_contaner #menu { background:url(../images/bg_menubar_black.png) repeat-x; border-top: 1px solid #CCC; border-bottom: 1px solid #CCC; height:40px;}
+.scan_contaner #menu ul { list-style:none !important; margin:0 !important; padding:0 !important; }
+.scan_contaner #menu a { text-decoration:none; display:block; white-space:nowrap; }
+.scan_contaner #menu .nohref { cursor:default; }
+/* first level start */
+.scan_contaner .menubar_split, .menubar_split_last { background:#000; width:1px; height:40px; position: absolute; top: 0; border-left: 1px solid #666; border-right: 1px solid #666; }
+.scan_contaner .menubar_split { left:0; }
+.scan_contaner .menubar_split_last { right:0; }
+.scan_contaner #menu .D_menu_item { float:left; width:110px; height:40px; line-height:40px; color:#FFF; font:bold 13px/16px Helvetica; margin:0; padding:0; text-align:center; vertical-align:middle; }
+.scan_contaner #menu .D_menu_item { position:relative; z-index:1; }
+.scan_contaner #menu .D_menu_item a { height:40px; line-height:40px; }
+.scan_contaner #menu .D_menu_item a:visited { background:none; }
+.scan_contaner #menu .D_menu_item:hover { background-color:#FFF; color:#555; }
+/* first level end */
+
+.scan_contaner #menu a:link {
+	color: #fff; line-height: 40px; text-decoration: none
+}
+.scan_contaner #menu a:visited {
+	color: #fff; line-height: 40px; text-decoration: none
+}
+.scan_contaner #menu a:active {
+	color: #666666; line-height: 40px; text-decoration: none
+}
+.scan_contaner #menu a:hover {
+	color: #ff3300; line-height: 40px; text-decoration: none; cursor:pointer;
+}
+
+
+.scan_contaner .ks-overlay {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+}
+.scan_contaner .ks-ext-close {
+	padding: 0 20px;
+	position: absolute;
+	right: -5px;
+	top: 5px;
+}
+.scan_contaner .ks-ext-close,.ks-ext-close:link { color:#2222AA;text-decoration:none; cursor: pointer; }
+
+.scan_contaner .ks-ext-mask{
+	background: #999;
+	filter:alpha(opacity=70); /* IE */
+	-moz-opacity:0.7; /* Moz + FF */
+	opacity: 0.7; /* CSS3 e.g. FF 1.5 */
+}
+
+
+.scan_contaner .D-dailog .ks-ext-close .ks-ext-close-x {
+    height: 8px;
+}
+
+.scan_contaner .D-dailog .ks-ext-close, .D-dailog .ks-ext-close:hover {
+    background: none;
+    border: none;
+}
+
+.scan_contaner .D-dailog 
+{
+    position: absolute;
+    left: -9999px;
+    top: -99999px; 
+    margin:100px auto;
+	padding: 0;
+	width: 392px;
+	height: 242px;
+	background-color:#F1F2F2;
+}
+
+.scan_contaner .D-dailog .D-dailog-body 
+{
+    width: 350px;
+	height: 200px;
+	position: relative;
+	top:5px;
+	left: 5px;
+	margin: 0;
+	background-color: #ffffff;
+	border: 1px solid #E7E7E7;
+	padding: 15px;
+}
+
+.scan_contaner .D-dailog .D-dailog-body-Mac 
+{
+    width: 350px;
+	height: 255px;
+	position: relative;
+	top:5px;
+	left: 5px;
+	margin: 0;
+	background-color: #ffffff;
+	border: 1px solid #E7E7E7;
+	padding: 15px;
+}
+
+.scan_contaner .D-dailog .D-dailog-body-Scan
+{
+    width: 380px;
+	height: 240px;
+	position: relative;
+	top:5px;
+	left: 5px;
+	margin: 0;
+	background-color: #ffffff;
+	border: 1px solid #E7E7E7;
+	padding: 15px;
+}
+
+
+.scan_contaner .D-dailog .D-dailog-body-Scan-sample
+{
+    width: 380px;
+	height: 200px;
+	position: relative;
+	top:5px;
+	left: 5px;
+	margin: 0;
+	background-color: #ffffff;
+	border: 1px solid #E7E7E7;
+	padding: 15px;
+}
+
+.scan_contaner .D-dailog a {
+			text-decoration: none;
+		}
+		
+.scan_contaner .link{
+			text-decoration:underline;
+		}
+
+
+.scan_contaner .box_title {
+	color: #333;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.scan_contaner .box_title_scan {
+	color: #333;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.scan_contaner .box_scan_subtitle {
+	color: #333;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+
+.scan_contaner .box_scan_detail {
+	color: #777777;
+	margin-top:5px;
+	margin-bottom:8px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+
+.scan_contaner .D-dailog ul {
+	margin: 10px 0 10px 20px !important;
+	list-style-type:disc !important;
+}
+
+
+.scan_contaner .red {
+	color: red;
+	margin-left: 5px;
+}
+
+.scan_contaner .button {
+ background-image: url(../images/btn-down-install-plugin.gif);
+ background-repeat: no-repeat;
+ width: 212px;
+ height: 34px;
+ position: relative;
+ margin: 20px auto 0;
+ cursor: pointer;
+}
+
+.scan_contaner .button:hover {
+ background-position: 0 -34px;
+}
+
+.scan_contaner .button:active {
+ background-position: 0 -68px;
+}
+
+
+
+.scan_contaner #PCollapse {
+    list-style: none inside none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.scan_contaner .divType
+{
+	font-weight:bold;
+	font-size:12px;
+	height: 25px;
+	cursor:pointer;
+}
+
+.scan_contaner .mark_arrow {
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 0px 2px 0 0;
+    width: 12px;
+}
+
+.scan_contaner .collapsed {
+    background: url("../images/arrow.gif") no-repeat scroll 3px center transparent;
+}
+
+.scan_contaner .expanded 
+{
+	background: url("../images/arrow-down.gif") no-repeat scroll 3px 4px transparent;
+}
+
+.scan_contaner #div_SampleImage
+{
+	padding-left:15px;
+}
+
+.scan_contaner #div_LoadLocalImage
+{
+	padding-left:15px;
+	width: 260px;
+}
+
+.scan_contaner #div_SampleImage ul
+{
+	padding-left:0;
+	margin-left:0;
+}
+
+.scan_contaner .divTableStyle
+{
+	border: solid 8px #ddd; 
+}
+
+/*Upgrade*/
+.scan_contaner #message
+{
+    font-family: Arial,Helvetica,sans-serif;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 105;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    padding: 10px 0px 10px 0px;
+    
+    color: #239210;
+    background-color: #E0F0D6;
+    border: 1px solid #54D33F;
+    box-shadow: 0 0 10px #3A3A3A;
+}
+
+.scan_contaner #MessageBody a {
+ color: #6A9962;
+ font-size: 14px;
+}
+
+.scan_contaner #message span
+{
+    text-align: center;
+    width: 95%;
+    float: left;
+}
+
+.scan_contaner #MessageBoy a:hover {
+ text-decoration: underline;
+}
+
+.scan_contaner .close-notify
+{
+    white-space: nowrap;
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px #fff solid;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.scan_contaner .close-notify a
+{
+    color: #fff;
+}
+
+.scan_contaner .DWTPage{
+	margin: 0 auto;
+}
+
+.scan_contaner .DWTHeader{
+	background-color: #3a3a3a;
+	border: 0; 
+	padding: 0;
+}
+
+.scan_contaner .DWTTail{
+	background-color:#ffffff; 
+	border:0;
+}
